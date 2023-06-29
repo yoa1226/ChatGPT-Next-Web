@@ -8,7 +8,7 @@ const nextConfig = {
       test: /\.svg$/,
       use: ["@svgr/webpack"],
     });
-
+    require('./server');
     return config;
   },
   output: mode,
